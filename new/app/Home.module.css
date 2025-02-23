@@ -32,7 +32,7 @@
   width: 100%;
   overflow-x: auto;
   height: 100%;
-  margin-left: 0px;
+  margin-left: 150px;
 }
 
 .navBarContainer::-webkit-scrollbar {
@@ -420,7 +420,7 @@
     overflow-x: auto;
     z-index: 5;
     height: 50px;
-    margin-right: 175px;
+    margin-left: 150px;
   }
 
   .navBar li a {
