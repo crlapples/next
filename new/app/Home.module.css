@@ -29,7 +29,7 @@
 }
 
 .navBarContainer {
-  width: 100%;
+  width: 150%;
   height: 100%;
   margin-left: 400px;
 }
@@ -46,6 +46,7 @@
   overflow-x: auto;
   height: 175px;
   z-index: 5;
+  white-space: nowrap;
 }
 
 .navBar li a {
@@ -420,7 +421,7 @@
 
   .navBar {
     width: 100%;
-    margin-left: -255px;
+    margin-left: -190px;
     overflow-x: auto;
     z-index: 5;
     height: 50px;
@@ -584,7 +585,7 @@
   gap: 0px;
   width: 100%;
   margin-top: 50px;
-  left: -465px;
+  left: -520px;
   height: 300px;
 }
 
