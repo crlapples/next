@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "static": "next build && touch ./out/.nojekyll && echo 'https://crlapples.github.io/next' > ./out/CNAME",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "15.1.7",
