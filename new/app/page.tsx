@@ -31,19 +31,17 @@ const Home = () => {
           <img className={styles.logo} src="https://assets.onecompiler.app/42xjnjtme/439pfatvu/image_fx_%20(26)%20(1).jpg" />
         </div>
         <div className={styles.seperatorLineA} />
-        <div className={styles.navBarContainer}>
-          <ul className={styles.navBar} id="navBar">
-            <li className={styles.home}><Link href="/">Home</Link></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.apps}><Link href="/Apps">Apps</Link></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.faqs}><Link href="/FAQs">FAQs</Link></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.about}><Link href="/About">About Us</Link></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.contact}><Link href="/Contact">Contact Us</Link></li>
-          </ul>
-        </div>
+        <ul className={styles.navBar} id="navBar">
+          <li className={styles.home}><Link href="/">Home</Link></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.apps}><Link href="/Apps">Apps</Link></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.faqs}><Link href="/FAQs">FAQs</Link></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.about}><Link href="/About">About Us</Link></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.contact}><Link href="/Contact">Contact Us</Link></li>
+        </ul>
       </div>
       <div className={styles.welcomeContainer}>
         <img className={styles.welcome} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/oie_8NhfbS34S3Ft.png" />

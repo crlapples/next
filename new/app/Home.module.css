@@ -47,6 +47,7 @@
   height: 175px;
   z-index: 5;
   white-space: nowrap;
+  margin-left: 30%;
 }
 
 .navBar li a {
@@ -262,7 +263,7 @@
   color: black;
   padding: 15px;
   font-size: 25px;
-  height: 500px;
+  height: 580px;
   width: 300px;
   background-color: white;
 }
@@ -404,7 +405,7 @@
 @media (max-width: 720px) {
 
   .topContainer {
-    width: 150%;
+    width: 100%;
   }
 
   .logoContainer {
@@ -420,11 +421,13 @@
   }
 
   .navBar {
-    width: 100%;
-    margin-left: -190px;
     overflow-x: auto;
     z-index: 5;
     height: 50px;
+  }
+
+  .home {
+    margin-left: 200px;
   }
 
   .navBar li a {
@@ -585,7 +588,7 @@
   gap: 0px;
   width: 100%;
   margin-top: 50px;
-  left: -520px;
+  left: -530px;
   height: 300px;
 }
 
