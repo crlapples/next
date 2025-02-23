@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import styles from "/next/Home.module.css";
-import "/next/globals.css";
+import styles from "./Home.module.css";
+import "./globals.css";
 
 const Home = () => {
   const [hash, setHash] = useState<string | null>(null);
