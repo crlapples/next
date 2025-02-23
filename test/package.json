@@ -6,23 +6,20 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "static": "next build && touch ./out/.nojekyll && echo 'https://crlapples.github.io/next' > ./out/CNAME",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "next": "15.1.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "gh-pages": "^6.3.0",
-    "typescript": "^5"
+    "@eslint/eslintrc": "^3"
   }
 }
