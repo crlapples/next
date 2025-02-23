@@ -47,7 +47,7 @@
   height: 175px;
   z-index: 5;
   white-space: nowrap;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 .navBar li a {
@@ -427,7 +427,7 @@
   }
 
   .home {
-    margin-left: 200px;
+    margin-left: 225px;
   }
 
   .navBar li a {
