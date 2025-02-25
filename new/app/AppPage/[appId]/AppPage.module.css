@@ -255,4 +255,24 @@
   .navBar li a {
     font-size: 20px;
   }
+
+  .compatibility {
+    font-size: 20px;
+  }
+  
+  .specs {
+    font-size: 20px;
+  }
+  
+  .reviews {
+    font-size: 25px;
+  }
+
+  .titleD {
+    font-size: 25px;
+  }
+  
+  .appPageDesc {
+    font-size: 22px;
+  }
 }
