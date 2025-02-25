@@ -4,52 +4,18 @@ export const appInfo {
       title: "EchoMind",
       description: "EchoMind is a brain teaser app that combines the excitement of a classic card game with a mental challenge. Players must identify the value of a randomly drawn hand of five cards from a standard 52-card deck. With 10 levels of increasing difficulty, it offers fresh challenges for players of all skill levels. The app also introduces an educational twist, revealing a foreign language word after each round to expand your vocabulary. Whether you prefer quick thinking or careful analysis, EchoMind caters to both playstyles. It encourages cognitive training, offering fun ways to sharpen your mental skills. The app’s upbeat tone and mild humor keep you motivated while playing. Suitable for kids, adults, and seniors, "EchoMind" is perfect for short or extended gaming sessions. Each level ensures a satisfying experience while keeping you engaged. Plus, it offers a subtle introduction to math and probability concepts.",
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439prepcx/460x0w%20(3).webp",
-      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />
-Supplier Relations US, LLC.<br /><br />
-Size<br />
-26.4 MB<br /><br />
-Category<br />
-Entertainment<br /><br />
-Languages<br />
-English<br /><br />
-Age Rating<br />
-4+<br /><br />
-Copyright<br />
-© (C) 2024 Supplier Relations US<br /><br />
-Price<br />
-NT$30.00</p>",
+      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />26.4 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />
+© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
       reviews: "",
-      compatibility: "<p><strong>Compatibility<strong><br /><br />
-iPhone<br />
-Requires iOS 12.0 or later.<br /><br />
-iPad<br />
-Requires iPadOS 12.0 or later.<br /><br />
-iPod touch<br />
-Requires iOS 12.0 or later.<br /><br />
-Mac<br />
-Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
-Apple Vision<br />
-Requires visionOS 1.0 or later.</p>"
+      compatibility: "<p><strong>Compatibility<strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
     }, app2: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/434x0w%20(4).webp",
       title: "Quick Banner",
       description: "Hey there! You can print banners on most Brother QL, RJ, TD, and PT thermal printers, ranging from 1 inch to 4 inches wide and up to 100 feet long. To get started, open Settings, choose your printer, select the paper size, and decide whether you want automatic cutting. On the main screen, type your text or use voice input, and your label will appear instantly. If you’re using a QL-820NWB or QL-810W printer, switch the Black/Red slider to Red, or else red text will print in black. For small labels, use Portrait orientation to fit within the paper's width, while Landscape orientation is ideal for long banners. If you need extra-long prints, set the printer to NO CUT, and you can print continuously. We recommend the DK-4605 label roll, a removable yellow label roll perfect for posters. This app also works with Brother P-touch printers, supporting tapes from 6mm to 36mm wide that are waterproof and long-lasting. Hope you enjoy using the app and have fun creating custom banners!",
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/460x0w%20(4).webp",
-      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />
-Supplier Relations US, LLC.<br /><br />
-Size<br />
-35.9 MB<br /><br />
-Category<br />
-Productivity<br /><br />
-Languages<br />
-English<br /><br />
-Age Rating<br />
-4+<br /><br />
-Copyright<br />
-© (C) 2024 Supplier Relations US<br /><br />
-Price<br />
-Free</p>",
+      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />35.9 MB<br /><br />Category<br />Productivity<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />
+© (C) 2024 Supplier Relations US<br /><br />Price<br />Free</p>",
       reviews: "",
       compatibility: "<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
