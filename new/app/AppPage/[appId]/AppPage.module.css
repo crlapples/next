@@ -147,11 +147,11 @@
 
 .titleD {
   width: 65%;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .appPageDesc {
-  font-size: 2.5vh;
+  font-size: 3vh;
 }
 
 .togetherA {
@@ -206,14 +206,20 @@
 
 .compatibility {
   font-size: 2vh;
+  width: 100%;
+  height: 100%;
 }
 
 .specs {
   font-size: 2vh;
+  width: 100%;
+  height: 100%;
 }
 
 .reviews {
   font-size: 3vh;
+  width: 100%;
+  height: 100%;
 }
 
 .google {
