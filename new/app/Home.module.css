@@ -7,6 +7,7 @@
 
 .topContainer {
   display: flex;
+  align-items: center;
   gap: 3%;
   width: 100%;
   height: 30%;
@@ -27,6 +28,7 @@
   display: flex;
   align-items: center;
   overflow-x: auto;
+  overflow-y: hidden;
   gap: 2%;
   list-style: none;
   white-space: nowrap;
