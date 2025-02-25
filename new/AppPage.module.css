@@ -66,10 +66,22 @@
 .contentContainerA {
   width: 100%;
   height: 100%;
+}
+
+.appInfoContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.appVerticalOri {
+  width: 100%;
+  height: 100%;
+}
+
+.appHorizontalOri {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10vh;
 }
 
 @media (prefers-color-scheme: dark) {
