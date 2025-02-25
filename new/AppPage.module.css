@@ -82,6 +82,39 @@
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appVerticalOriB {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appHorizontallOriB {
+  width: 20%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appLogo {
+  width: 30%;
+  height: 100%;
+  display: block;
+}
+
+.titleD {
+  font-size: 3.5vh;
+}
+
+.appPageDesc {
+  font-size: 3vh;
 }
 
 @media (prefers-color-scheme: dark) {
