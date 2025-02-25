@@ -438,6 +438,12 @@
   background-color: lightgray;
 }
 
+@media (max-width: 1000px) {
+  .navBar li a {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 720px) {
   .horizontalOriA {
     display: flex;
@@ -851,39 +857,6 @@
 }
 
 @media screen and (min-width: 721px) and (max-width: 900px) {
-  .topContainer {
-    width: 150%;
-  }
-
-  .logoContainer {
-    width: 100;
-  }
-
-  .logo {
-    width: 100px;
-  }
-
-  .navBar {
-    width: 100%;
-    margin-left: 0px;
-    overflow-x: auto;
-    z-index: 5;
-    height: 50px;
-    margin-right: 175px;
-  }
-
-  .navBar li a {
-    font-size: 21px;
-    text-decoration: none;
-    color: black;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    width: 120px;
-    white-space: nowrap;
-  }
-
   .horizontalOriA {
     display: flex;
     position: absolute;
