@@ -6,7 +6,7 @@ export const appInfo = {
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439prepcx/460x0w%20(3).webp",
       specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />26.4 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
       reviews: "",
-      compatibility: "<p><strong>Compatibility<strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
+      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
     }, app2: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/434x0w%20(4).webp",
