@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { appInfo } from "../../data";
+import { appInfo } from "./data.ts";
 import styles from "./AppPage.module.css";
 import "./globals.css";
 
