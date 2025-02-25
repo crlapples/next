@@ -50,18 +50,21 @@ const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
                 <p className={styles.appPageDesc}>{app.description}</p>
               </div>
               <div className={styles.appVerticalOriB}>
-                <img className={styles.phonePropA1} src="">
-                  <div className={styles.appDemoPhone}>
-                    <img src={app.appDemo} />
+                <div className={styles.togetherA}>
+                  <div className={styles.demoContainer}>
+                    <img className={styles.appDemoPhoneA} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/460x0w.webp" />
                   </div>
-                </img>
-                <div className={styles.specs} dangerouslySetInnerHTML={{ __html: app.specs }} />
+                  <div className={styles.propContainer}>
+                    <img className={styles.phonePropA1} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" />
+                  </div>
+                </div>
               </div>
               <div className={styles.appVerticalB}>
+                <div className={styles.compatibility} dangerouslySetIneerHTML={{ __html: app.compatibility }} />
+                <div className={styles.specs} dangerouslySetInnerHTML={{ __html: app.specs }} />
                 <div className={styles.reviews}>
                   <p>Get started with {app.title} now.</p>
                 </div>
-                <div className={styles.compatibility} dangerouslySetIneerHTML={{ __html: app.compatibility }} />
                 <div className={styles.downloads}>
               </div>
             </div>
