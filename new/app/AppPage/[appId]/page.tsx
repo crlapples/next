@@ -1,9 +1,9 @@
-import { useRouter } from 'next/router';
-import { appInfo } from "./data.ts";
-import styles from "./AppPage.module.css";
-import "./globals.css";
+// This file is for server-side generation, so no 'use client' here
 
-interface AppInfo = {
+import { appInfo } from "./data";  // Adjust path based on your directory structure
+import styles from "./AppPage.module.css";  // Assuming styles are in the same directory
+
+interface AppInfo {
   specs: string[];
   compatibility: string[];
   logo: string;
@@ -12,32 +12,41 @@ interface AppInfo = {
   appDemo: string;
 }
 
-const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
-  const { query } = useRouter();
-  const { appId } = query;
-  
+// Static Params Generation for Dynamic Routes
+export function generateStaticParams() {
+  // Return an array of all available app IDs for static generation
+  return Object.keys(appInfo).map((appId) => ({
+    appId, // Each object contains a unique appId
+  }));
+}
+
+const AppPageStatic = ({ params }) => {
+  const { appId } = params;  // Extract appId from params
   const app = appInfo[appId as keyof typeof appInfo];
-  
+
+  // If the app is not found, handle that case
+  if (!app) {
+    return <div>App not found</div>;
+  }
+
   return (
     <main className={styles.mainContainer}>
       <div className={styles.topContainer}>
         <div className={styles.logoContainer}>
-          <img className={styles.logo} src="" />
+          <img className={styles.logo} src={"https://assets.onecompiler.app/42xjnjtme/439pfatvu/image_fx_%20(26)%20(1).jpg"} />
         </div>
         <div className={styles.seperatorLineA} />
-        <div className={styles.navBarContainer}>
-          <ul className={styles.navBar}>
-            <li className={styles.home}><a href="/">Home</a></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.apps}><a href="/Apps">Apps</a></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.faqs}><a href="/FAQs">FAQs</a></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.about}><a href="/About">About Us</a></li>
-            <div className={styles.seperatorLineB} />
-            <li className={styles.contact}><a href="/Contact">Contact Us</a></li>
-          </ul>
-        </div>
+        <ul className={styles.navBar}>
+          <li className={styles.home}><a href="/">Home</a></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.apps}><a href="/Apps">Apps</a></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.faqs}><a href="/FAQs">FAQs</a></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.about}><a href="/About">About Us</a></li>
+          <div className={styles.seperatorLineB} />
+          <li className={styles.contact}><a href="/Contact">Contact Us</a></li>
+        </ul>
       </div>
       <div className={styles.contentContainerA}>
         <div className={styles.appInfoContainer}>
@@ -53,22 +62,22 @@ const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
               <div className={styles.appVerticalOriB}>
                 <div className={styles.togetherA}>
                   <div className={styles.demoContainer}>
-                    <img className={styles.appDemoPhoneA} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/460x0w.webp" />
+                    <img className={styles.appDemoPhoneA} src={app.appDemo} />
                   </div>
                   <div className={styles.propContainer}>
                     <img className={styles.phonePropA1} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" />
                   </div>
                 </div>
               </div>
-              <div className={styles.appVerticalB}>
-                <div className={styles.compatibility} dangerouslySetIneerHTML={{ __html: app.compatibility }} />
+              <div className={styles.appVerticalOriB}>
+                <div className={styles.compatibility} dangerouslySetInnerHTML={{ __html: app.compatibility }} />
                 <div className={styles.specs} dangerouslySetInnerHTML={{ __html: app.specs }} />
                 <div className={styles.reviews}>
                   <p>Get started with {app.title} now.</p>
                 </div>
                 <div className={styles.downloads}>
                   <img className={styles.google} src="/google.png" />
-                  <img className={styles.apple} src="appleWhite.svg" />
+                  <img className={styles.apple} src="/appleWhite.svg" />
                 </div>
               </div>
             </div>
@@ -79,4 +88,4 @@ const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
   );
 };
 
-export default AppPage;
+export default AppPageStatic;

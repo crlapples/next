@@ -55,8 +55,8 @@
 }
 
 .seperatorLineB {
-  width: 2px;
-  height: 25%;
+  width: 1px;
+  height: 2.5vw;
   background-color: black;
   border: 1px solid black;
 }

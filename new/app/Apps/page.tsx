@@ -40,7 +40,7 @@ const Apps = () => {
           <p className={styles.title2}>Collection</p>
         </div>
         <div className={styles.appGrid}>
-          <Link href="/BrotheriPrint"><div className={styles.appBlock}>
+          <Link href="/AppPage/app1"><div className={styles.appBlock}>
             <div className={styles.togetherA}>
               <div className={styles.demoContainer}>
                 <img className={styles.appDemoPhoneA} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/460x0w.webp" />
