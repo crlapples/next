@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import { appInfo } from "../../data";
 import styles from "./AppPage.module.css";
-import Image from 'next/image';
 
 interface AppInfo = {
   specs: string[];
@@ -67,8 +66,8 @@ const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
                   <p>Get started with {app.title} now.</p>
                 </div>
                 <div className={styles.downloads}>
-                  <Image className={styles.google} src="/google.png" />
-                  <Image className={styles.apple} src="appleWhite.svg" />
+                  <img className={styles.google} src="/google.png" />
+                  <img className={styles.apple} src="appleWhite.svg" />
                 </div>
               </div>
             </div>
