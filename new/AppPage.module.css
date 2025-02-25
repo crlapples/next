@@ -91,3 +91,9 @@
     background-color: #1C1C1C;
   }
 }
+
+@media (max-width: 1000px) {
+  .navBar li a {
+    font-size: 20px;
+  }
+}
