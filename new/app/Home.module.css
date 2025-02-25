@@ -31,6 +31,8 @@
   list-style: none;
   white-space: nowrap;
   width: 100%;
+  position: relative;
+  z-index: 9999;
 }
 
 .navBar::-webkit-scrollbar {
@@ -71,6 +73,7 @@
 @media (prefers-color-scheme: dark) {
   .mainContainer {
     background-color: black;
+    color: white;
   }
 
   .seperatorLineB {
@@ -410,7 +413,6 @@
 }
 
 .descC {
-  color: black;
   padding: 15px;
   font-size: 25px;
   height: 500px;
@@ -687,7 +689,6 @@
 }
 
 .descC {
-  color: black;
   padding: 15px;
   font-size: 25px;
   height: 500px;
@@ -736,7 +737,6 @@
   }
 
   .descC {
-    color: black;
     padding: 15px;
     font-size: 25px;
     height: 500px;
@@ -1134,7 +1134,6 @@
 }
 
 .descC {
-  color: black;
   padding: 15px;
   font-size: 25px;
   height: 500px;

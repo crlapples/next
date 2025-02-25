@@ -157,6 +157,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .mainContainer {
+    background-color: black;
+    color: white;
+  }
+
   .seperatorLineB {
     background-color: white;
     border: solid white;
