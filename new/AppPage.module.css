@@ -166,6 +166,18 @@
   border-radius: 25px;
 }
 
+.compatibility {
+  font-size: 2.5vh;
+}
+
+.specs {
+  font-size: 2.5vh;
+}
+
+.reviews {
+  font-size: 3vh;
+}
+
 @media (prefers-color-scheme: dark) {
   .mainContainer {
     background-color: black;
