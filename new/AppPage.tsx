@@ -43,7 +43,7 @@ const AppPage: React.FC<Props> = ({ appInfo.specs, appInfo.compatibility }) => {
           <div className={styles.appVerticalOri}>
             <div className={styles.appHorizontalOri}>
               <div className={styles.appVerticalOriB}>
-                <div className={styles.appHorizontalOri}>
+                <div className={styles.appHorizontalOriB}>
                   <img className={styles.appLogo} src={app.logo} />
                   <p className={styles.titleD}><strong>{app.title}</strong></p>
                 </div>
