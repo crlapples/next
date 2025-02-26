@@ -140,6 +140,20 @@
   text-align: center;
   border: 2px solid black;
   color: black;
+  background: radial-gradient(circle, beige, rgba(255, 200, 200, 0.7));
+  animation: ripple 2s infinite;
+}
+
+@keyframes ripple {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
 }
 
 .decorationBar {
@@ -150,7 +164,12 @@
   width: 30%;
   height: 15%;
   background-color: lightblue;
-  border: 2px solid black;
+  background: radial-gradient(
+    circle,
+    rgba(173, 216, 230, 1),
+    rgba(0, 0, 255, 0.7)
+  );
+  animation: ripple 2s infinite;
 }
 
 .title2 {
@@ -162,6 +181,8 @@
   margin-top: 8%;
   border: 2px solid black;
   color: black;
+  background: radial-gradient(circle, orange, rgba(255, 150, 0, 0.7));
+  animation: ripple 2s infinite;
 }
 
 @media (prefers-color-scheme: dark) {
