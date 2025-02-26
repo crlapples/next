@@ -250,6 +250,24 @@
   height: 100%;
 }
 
+@media screen and (min-width: 1001px) and (max-width: 1440px) {
+  .appPageDesc {
+    font-size: 1.5vh;
+  }
+
+  .titleD {
+    font-size: 2.5vh;
+  }
+
+  .specs {
+    font-size: 1.5vh;
+  }
+
+  .compatibility {
+    font-size: 1.5vh;
+  }
+}
+
 .downloads {
   display: flex;
   flex-direction: column;
