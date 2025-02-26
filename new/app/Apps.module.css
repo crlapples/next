@@ -140,7 +140,7 @@
   height: 30%;
   text-align: center;
   color: black;
-  border-radius: 25px;
+  border-radius: 3vw; 
   background: radial-gradient(circle, beige, rgba(255, 200, 200, 0.7));
   animation: ripple 2s infinite;
   font-family: "Zen Dots", san-serif;
@@ -172,7 +172,7 @@
     #017779
   );
   animation: ripple 2s infinite;
-  border-radius: 10px;
+  border-radius: 1vw;
 }
 
 .title2 {
@@ -185,7 +185,7 @@
   background: radial-gradient(circle, rgb(255, 214, 139), rgba(255, 150, 0, 0.7));
   animation: ripple 2s infinite;
   font-family: "Zen Dots", sans-serif;
-  border-radius: 25px;
+  border-radius: 3vw;
 }
 
 @media (prefers-color-scheme: dark) {
