@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002FAppPage\u002F[appId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

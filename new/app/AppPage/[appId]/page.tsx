@@ -2,6 +2,12 @@ import { appInfo } from "./data";
 import styles from "./AppPage.module.css";
 import "./globals.css";
  
+interface AppPageProps {
+  params: {
+    appId: string;
+  }
+}
+
 interface AppInfo {
   specs: string[];
   compatibility: string[];
@@ -20,7 +26,7 @@ export function generateStaticParams() {
   }));
 }
 
-const AppPageStatic = ({ params }) => {
+const AppPageStatic = ({ params }: AppPageProps) => {
   const { appId } = params;
   const app = appInfo[appId as keyof typeof appInfo];
 
