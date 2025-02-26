@@ -155,7 +155,7 @@ const Apps = () => {
           <Link href="/AppPage/app11"><div className={styles.appBlock}>
             <div className={styles.togetherA}>
               <div className={styles.demoContainer}>
-                <img className={styles.appDemoPhoneA} src="https://assets.onecompiler.app/42xjnjtme/439q6r4xe/1286x0w%20(2).webp" />
+                <img className={styles.appDemoPhoneA} src="https://assets.onecompiler.app/42xjnjtme/43a94n687/230x0w.webp" />
               </div>
               <div className={styles.propContainer}>
                 <img className={styles.phonePropA1} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" />

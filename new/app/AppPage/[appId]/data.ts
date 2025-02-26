@@ -271,7 +271,7 @@ appleLink: "https://apps.apple.com/us/app/lilliputian/id6480162708"
       logo: "https://assets.onecompiler.app/42xjnjtme/439q6r4xe/434x0w%20(11).webp",
       title: "Finger Craft",
       description: "Finger Craft is a minimalist drawing app that lets you create personalized greeting cards with ease. The app supports secure saving, ensuring all your artwork remains private, and offers simple sharing options via email, text, or social media. You can print directly to AirPrint-enabled printers or selected Brother thermal label printers. The app's intuitive design allows users to create artwork on a blank canvas, change pen colors and sizes, undo mistakes, and clear the canvas when needed. Saving and sharing your creations is just a tap away, with options to print or send via AirDrop, Messages, or Mail. Finger Craft is perfect for designing greeting cards, stickers, labels, and signs in various sizes. It offers a seamless experience with no ads, ensuring complete privacy of your data. The app allows you to retain full ownership of your designs, ensuring you hold the copyright. Whether for special occasions, personal notes, or simple creative exercises, the app offers endless possibilities for unique and meaningful creations. Create heartfelt, hand-drawn messages and share them with loved ones for any occasion.",
-      appDemo: "https://assets.onecompiler.app/42xjnjtme/439q6r4xe/1286x0w%20(2).webp",
+      appDemo: "https://assets.onecompiler.app/42xjnjtme/43a94n687/230x0w.webp",
       specs: `<p><strong>Specifications</strong><br /><br />Provider<br />
 Supplier Relations US, LLC.<br /><br />
 Size<br />
