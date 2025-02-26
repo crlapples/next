@@ -98,11 +98,15 @@
   justify-content: center;
   align-items: center;
   border: 2px solid black;
+  padding: 5vw;
+  border-radius: 25px;
+  background-color: silver;
 }
 
 @media (prefers-color-scheme: dark) {
   .appInfoContainer {
     border: solid white;
+    background-color: #1c1c1c;
   }
 }
 
