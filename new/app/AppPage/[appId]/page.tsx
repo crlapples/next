@@ -1,7 +1,5 @@
-// This file is for server-side generation, so no 'use client' here
-
-import { appInfo } from "./data";  // Adjust path based on your directory structure
-import styles from "./AppPage.module.css";  // Assuming styles are in the same directory
+import { appInfo } from "./data";
+import styles from "./AppPage.module.css";
 
 interface AppInfo {
   specs: string[];
@@ -12,19 +10,17 @@ interface AppInfo {
   appDemo: string;
 }
 
-// Static Params Generation for Dynamic Routes
 export function generateStaticParams() {
-  // Return an array of all available app IDs for static generation
+
   return Object.keys(appInfo).map((appId) => ({
-    appId, // Each object contains a unique appId
+    appId,
   }));
 }
 
 const AppPageStatic = ({ params }) => {
-  const { appId } = params;  // Extract appId from params
+  const { appId } = params;
   const app = appInfo[appId as keyof typeof appInfo];
 
-  // If the app is not found, handle that case
   if (!app) {
     return <div>App not found</div>;
   }
@@ -37,15 +33,15 @@ const AppPageStatic = ({ params }) => {
         </div>
         <div className={styles.seperatorLineA} />
         <ul className={styles.navBar}>
-          <li className={styles.home}><a href="/">Home</a></li>
+          <a href="/"><li className={styles.home}>Home</li></a>
           <div className={styles.seperatorLineB} />
-          <li className={styles.apps}><a href="/Apps">Apps</a></li>
+          <a href="/Apps"><li className={styles.apps}>Apps</li></a>
           <div className={styles.seperatorLineB} />
-          <li className={styles.faqs}><a href="/FAQs">FAQs</a></li>
+          <a href="/FAQs"><li className={styles.faqs}>FAQs</li></a>
           <div className={styles.seperatorLineB} />
-          <li className={styles.about}><a href="/About">About Us</a></li>
+          <a href="/About"><li className={styles.about}>About Us</li></a>
           <div className={styles.seperatorLineB} />
-          <li className={styles.contact}><a href="/Contact">Contact Us</a></li>
+          <a href="/Contact"><li className={styles.contact}>Contact Us</li></a>
         </ul>
       </div>
       <div className={styles.contentContainerA}>
@@ -69,7 +65,7 @@ const AppPageStatic = ({ params }) => {
                   </div>
                 </div>
               </div>
-              <div className={styles.appVerticalOriB}>
+              <div className={styles.appVerticalOriC}>
                 <div className={styles.compatibility} dangerouslySetInnerHTML={{ __html: app.compatibility }} />
                 <div className={styles.specs} dangerouslySetInnerHTML={{ __html: app.specs }} />
                 <div className={styles.reviews}>

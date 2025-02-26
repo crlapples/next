@@ -13,15 +13,15 @@ const Apps = () => {
         </div>
         <div className={styles.seperatorLineA} />
         <ul className={styles.navBar} id="navBar">
-          <li className={styles.home}><Link href="/">Home</Link></li>
+          <Link href="/"><li className={styles.home}>Home</li></Link>
           <div className={styles.seperatorLineB} />
-          <li className={styles.apps}><Link href="/Apps">Apps</Link></li>
+          <Link href="/Apps"><li className={styles.apps}>Apps</li></Link>
           <div className={styles.seperatorLineB} />
-          <li className={styles.faqs}><Link href="/FAQs">FAQs</Link></li>
+          <Link href="/FAQs"><li className={styles.faqs}>FAQs</li></Link>
           <div className={styles.seperatorLineB} />
-          <li className={styles.about}><Link href="/About">About Us</Link></li>
+          <Link href="/About"><li className={styles.about}>About Us</li></Link>
           <div className={styles.seperatorLineB} />
-          <li className={styles.contact}><Link href="/Contact">Contact Us</Link></li>
+          <Link href="/Contact"><li className={styles.contact}>Contact Us</li></Link>
         </ul>
       </div>
       <div className={styles.contentContainerA}>

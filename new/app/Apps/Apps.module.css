@@ -40,16 +40,22 @@
   display: none;
 }
 
-.navBar li a {
+.navBar li {
   font-size: 2vw;
   text-decoration: none;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
+  width: 100%;
+  height: 100%;
 }
 
-.navBar li a:hover {
+.navBar li {
+  padding: 20px;
+}
+
+.navBar li:hover {
   text-decoration: underline;
   background-color: #D3D3D3;
 }
@@ -125,7 +131,6 @@
 .title1 {
   background-color: beige;
   padding: 3%;
-  color: rgb(119, 57, 34);
   margin-bottom: 0;
   font-size: 5vw;
   font-weight: bold;
@@ -150,7 +155,6 @@
 .title2 {
   background-color: orange;
   padding: 3%;
-  color: rgb(86, 99, 29);
   font-weight: bold;
   text-decoration: underline;
   font-size: 5vw;
@@ -169,7 +173,7 @@
     border: solid white;
   }
 
-  .navBar li a:hover {
+  .navBar li:hover {
     background-color: #1C1C1C;
   }
 
@@ -283,7 +287,7 @@
     grid-template-columns: 1fr;
   }
 
-  .navBar li a {
+  .navBar li {
     font-size: 20px;
   }
 
