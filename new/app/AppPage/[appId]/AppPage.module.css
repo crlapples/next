@@ -92,7 +92,7 @@
 }
 
 .appInfoContainer {
-  width: 100%;
+  width: 95%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@
 }
 
 .appVerticalOri {
-  width: 95%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -119,8 +119,8 @@
 }
 
 .appHorizontalOri {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
