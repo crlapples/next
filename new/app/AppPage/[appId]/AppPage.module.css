@@ -252,19 +252,19 @@
 
 @media screen and (min-width: 1001px) and (max-width: 1440px) {
   .appPageDesc {
-    font-size: 1.5vh;
+    font-size: 2.3vh;
   }
 
   .titleD {
-    font-size: 2.5vh;
+    font-size: 3vh;
   }
 
   .specs {
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
 
   .compatibility {
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
 }
 
