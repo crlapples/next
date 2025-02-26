@@ -57,7 +57,7 @@
 
 .navBar li:hover {
   text-decoration: underline;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .seperatorLineB {
@@ -79,7 +79,7 @@
   }
 
   .navBar li:hover {
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
   }
 }
 
@@ -97,6 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
 }
 
 .appVerticalOri {
@@ -164,7 +165,7 @@
 .togetherA {
   position: relative;
   align-self: center;
-  height: 100%; 
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -191,14 +192,14 @@
 
 .demoContainer {
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; 
+  width: 100%;
   height: 100%;
   overflow: hidden;
 }
@@ -272,7 +273,7 @@
   }
 
   .navBar li a:hover {
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
   }
 
   .apple {
@@ -303,12 +304,12 @@
     font-size: 16px;
     margin-top: 5vw;
   }
-  
+
   .specs {
     font-size: 16px;
     margin-top: 5vw;
   }
-  
+
   .reviews {
     font-size: 18px;
   }
@@ -316,7 +317,7 @@
   .titleD {
     font-size: 27px;
   }
-  
+
   .appPageDesc {
     font-size: 16px;
   }
