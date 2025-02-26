@@ -1,6 +1,7 @@
 import { appInfo } from "./data";
 import styles from "./AppPage.module.css";
-
+import "./globals.css";
+ 
 interface AppInfo {
   specs: string[];
   compatibility: string[];
