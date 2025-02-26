@@ -6,7 +6,9 @@ export const appInfo = {
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439prepcx/460x0w%20(3).webp",
       specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />26.4 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
       reviews: "",
-      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
+      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>",
+      googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.brotheraprint&hl=en_US",
+      appleLink: "https://apps.apple.com/us/app/brother-iprint/id6504161147"
     }, app2: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/434x0w%20(4).webp",
@@ -15,7 +17,9 @@ export const appInfo = {
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/460x0w%20(4).webp",
       specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />35.9 MB<br /><br />Category<br />Productivity<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />Free</p>",
       reviews: "",
-      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
+      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>",
+      googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.quickbanner&hl=en_US",
+      appleLink: "https://apps.apple.com/us/app/quick-banner/id6477319603"
     }, app3: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/434x0w%20(5).webp",
@@ -24,7 +28,9 @@ export const appInfo = {
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/460x0w%20(5).webp",
       specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />57.1 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
       reviews: "",
-      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 11.0 or later.<br /><br />iPad<br />Requires iPadOS 11.0 or later.<br /><br />iPod touch<br />Requires iOS 11.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>"
+      compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 11.0 or later.<br /><br />iPad<br />Requires iPadOS 11.0 or later.<br /><br />iPod touch<br />Requires iOS 11.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>",
+      googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.prestidigitation&hl=en_US",
+      appleLink: "https://apps.apple.com/us/app/prestidigitation/id6478640173"
     }, app4: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q2vtq8/434x0w%20(6).webp",
@@ -52,7 +58,9 @@ Requires iOS 12.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.tshirt_text&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/mightywords/id6479220208"
     }, app5: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q3pyh8/434x0w%20(7).webp",
@@ -84,7 +92,9 @@ Requires iOS 14.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "null",
+appleLink: "https://apps.apple.com/us/app/nb202/id6497486044"
     }, app6: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q49c64/434x0w%20(8).webp",
@@ -116,7 +126,9 @@ Requires iOS 11.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "null",
+appleLink: "https://apps.apple.com/us/app/one-tap-voice-memo-ai/id6477845407"
     }, app7: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pfatvu/434x0w%20(2).webp",
@@ -149,7 +161,9 @@ Requires iOS 12.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.chinese5000&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/chinese-5000/id6476245019"
     }, app8: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q5b8nr/434x0w%20(9).webp",
@@ -181,7 +195,9 @@ Requires iOS 11.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Require visionOS 1.0 or later.</p>`
+Require visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.stockgenie&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/stock-genie/id6478634639"
     }, app9: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pfatvu/434x0w%20(1).webp",
@@ -213,7 +229,9 @@ Requires iOS 14.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.contracts&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/contract-plus/id6499346619"
     }, app10: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q5vcmx/434x0w%20(10).webp",
@@ -245,7 +263,9 @@ Requires iOS 12.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "null",
+appleLink: "https://apps.apple.com/us/app/lilliputian/id6480162708"
     }, app11: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q6r4xe/434x0w%20(11).webp",
@@ -277,7 +297,9 @@ Requires iOS 11.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.fingercraft&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/finger-craft/id6478898639"
     }, app12: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439pczt69/434x0w.webp",
@@ -309,7 +331,9 @@ Requires iOS 14.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.brotheraprint&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/brother-iprint/id6504161147"
     }, app13: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q7mbmy/434x0w%20(12).webp",
@@ -341,7 +365,9 @@ Requires iOS 12.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.quickbadge&hl=en_US",
+appleLink: "https://apps.apple.com/us/app/quick-name-badge/id6479378876"
     }, app14: 
     {
       logo: "https://assets.onecompiler.app/42xjnjtme/439q86pzx/434x0w%20(13).webp",
@@ -361,9 +387,9 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US, LLC.<br /><br />
 Price<br />
-NT$150.00</p>",
+NT$150.00</p>`,
       reviews: "",
-      compatibility: "<p><strong>Compatibility</strong><br /><br />
+      compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
 Requires iOS 14.0 or later.<br /><br />
 iPad<br />
@@ -373,7 +399,9 @@ Requires iOS 14.0 or later.<br /><br />
 Mac<br />
 Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />
 Apple Vision<br />
-Requires visionOS 1.0 or later.</p>`
+Requires visionOS 1.0 or later.</p>`,
+googleLink: "null",
+appleLink: "https://apps.apple.com/us/app/partyphoto/id6503082867"
     }
 };
 

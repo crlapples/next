@@ -112,7 +112,7 @@
   height: 90%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 3vw;
 }
 
@@ -150,7 +150,6 @@
   height: 100%;
   display: block;
   border-radius: 30px;
-  border: 2px solid black;
 }
 
 .titleD {
@@ -235,8 +234,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5vw;
+  gap: 35px;
   margin-bottom: 5vh;
+  width: 100%;
+  height: 100%;
+}
+
+.downloads a {
+  width: 100%;
+  height: 100%;
 }
 
 .google {

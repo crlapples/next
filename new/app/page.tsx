@@ -48,7 +48,7 @@ const Home = () => {
       </div>
       <div className={styles.recommendedAppsContainer}>
         <div className={styles.recommendedApps}>
-          <Link href="/Apps/name"><div className={styles.app2}>
+          <Link href="/AppPage/app7"><div className={styles.app2}>
             <img className={styles.imageBackground} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/image_fx_%20(21).jpg" />
             <div className={styles.horizontalOriA}>
               <div className={styles.verticalOriB}>
@@ -68,7 +68,7 @@ const Home = () => {
               <p className={styles.descA}>Chinese 5000 teaches 5,400 characters to form 380,000 words. It includes 52 cards for progressive learning. Users can practice calligraphy, play puzzles, and recite daily. Features include a Speak button, zoom, and AirPrint. Designed in the U.S., it supports traditional characters.</p>
             </div>
           </div></Link>
-          <Link href="/Apps/name"><div className={styles.app2}>
+          <Link href="/AppPage/app9"><div className={styles.app2}>
             <img className={styles.imageBackground} src="https://assets.onecompiler.app/42xjnjtme/439pczt69/image_fx_%20(20).jpg" />
             <div className={styles.horizontalOriB}>
               <div className={styles.togetherB}>
@@ -88,7 +88,8 @@ const Home = () => {
               <p className={styles.descB}>Contract Plus simplifies contract management with editable templates, secure sharing, and printing. Users can quickly customize, print, and share contracts. It includes 55 templates, AirPrint support, and secure access. The interface allows easy editing, search, and data entry. Legal consultation is recommended for compliance.</p>
             </div>
           </div></Link>
-          <Link href="/Apps/name"><div className={styles.app3}>
+          <Link href="/AppPage/app12"><div className={styles.app3}>
+            <div className={styles.descZ}></div>
             <p className={styles.descC}>Print from any app using Brother printers (TD, QL, MW, RJ, PT, PJ) with WiFi, Bluetooth, Direct WiFi, and MFi. Fast setup, remembers settings, and offers advanced options. View printer settings even without a connected Brother printer. Setup takes under 10 seconds, and printing is just one tap. Offers more features than AirPrint, including halftone control, media selection, and Bluetooth support.</p>
             <div className={styles.togetherC}>
               <div className={styles.appDemoPhoneC}><img src="https://assets.onecompiler.app/42xjnjtme/439pczt69/460x0w.webp" /></div>

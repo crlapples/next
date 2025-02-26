@@ -8,6 +8,8 @@ interface AppInfo {
   title: string;
   description: string;
   appDemo: string;
+  googleLink: string;
+  appleLink: string;
 }
 
 export function generateStaticParams() {
@@ -72,8 +74,12 @@ const AppPageStatic = ({ params }) => {
                   <p>Get started with {app.title} now.</p>
                 </div>
                 <div className={styles.downloads}>
-                  <img className={styles.google} src="/google.png" />
-                  <img className={styles.apple} src="/appleWhite.svg" />
+                  {app.googleLink === "null" ? (
+                    <div></div>
+                  ) : (
+                    <a href={app.googleLink}><img className={styles.google} src="/google.png" /></a>
+                  )}
+                  <a href={app.appleLink}><img className={styles.apple} src="/appleWhite.svg" /></a>
                 </div>
               </div>
             </div>
