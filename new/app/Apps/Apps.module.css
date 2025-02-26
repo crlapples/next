@@ -139,6 +139,7 @@
   height: 30%;
   text-align: center;
   border: 2px solid black;
+  color: black;
 }
 
 .decorationBar {
@@ -160,6 +161,7 @@
   font-size: 5vw;
   margin-top: 8%;
   border: 2px solid black;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
