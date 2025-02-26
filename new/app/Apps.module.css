@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
 .mainContainer {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 3.9vh;
   margin-bottom: 20%;
 }
 
@@ -26,7 +28,7 @@
 }
 
 .navBar {
-  display: flex;
+  display: none;
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
@@ -134,13 +136,13 @@
   margin-bottom: 0;
   font-size: 5vw;
   font-weight: bold;
-  text-decoration: underline;
   width: 20%;
   height: 30%;
   text-align: center;
   color: black;
   background: radial-gradient(circle, beige, rgba(255, 200, 200, 0.7));
   animation: ripple 2s infinite;
+  font-family: "Zen Dots", san-serif;
 }
 
 @keyframes ripple {
@@ -159,14 +161,14 @@
   transform: rotate(-45deg) translateX(-50%) translateY(-50%);
   position: absolute;
   top: -3.5%;
-  left: 41%;
+  left: 38%;
   width: 30%;
   height: 15%;
   background-color: lightblue;
   background: radial-gradient(
     circle,
-    rgba(173, 216, 230, 1),
-    rgba(0, 0, 255, 0.7)
+    rgb(126, 223, 223),
+    #017779
   );
   animation: ripple 2s infinite;
 }
@@ -174,13 +176,13 @@
 .title2 {
   background-color: orange;
   padding: 3%;
-  font-weight: bold;
-  text-decoration: underline;
   font-size: 5vw;
   margin-top: 8%;
+  font-weight: bold;
   color: black;
-  background: radial-gradient(circle, orange, rgba(255, 150, 0, 0.7));
+  background: radial-gradient(circle, rgb(255, 214, 139), rgba(255, 150, 0, 0.7));
   animation: ripple 2s infinite;
+  font-family: "Zen Dots", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -269,7 +271,6 @@
 .vertical {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 50%;
   height: 100%;
 }
@@ -278,7 +279,13 @@
   margin-bottom: 15%;
   font-size: 2vw;
   font-weight: bold;
-  text-align: center;
+  color: rgb(8, 22, 1)
+}
+
+@media (prefers-color-scheme: dark) {
+  .titleB {
+    color: rgb(234, 255, 219);
+  }
 }
 
 .shortDesc {
