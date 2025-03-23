@@ -4,7 +4,7 @@ export const appInfo = {
       title: "EchoMind",
       description: `EchoMind is a brain teaser app that combines the excitement of a classic card game with a mental challenge. Players must identify the value of a randomly drawn hand of five cards from a standard 52-card deck. With 10 levels of increasing difficulty, it offers fresh challenges for players of all skill levels. The app also introduces an educational twist, revealing a foreign language word after each round to expand your vocabulary. Whether you prefer quick thinking or careful analysis, EchoMind caters to both playstyles. It encourages cognitive training, offering fun ways to sharpen your mental skills. The app’s upbeat tone and mild humor keep you motivated while playing. Suitable for kids, adults, and seniors, "EchoMind" is perfect for short or extended gaming sessions. Each level ensures a satisfying experience while keeping you engaged. Plus, it offers a subtle introduction to math and probability concepts.`,
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439prepcx/460x0w%20(3).webp",
-      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />26.4 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
+      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />26.4 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />$0.99</p>",
       reviews: "",
       compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 12.0 or later.<br /><br />iPad<br />Requires iPadOS 12.0 or later.<br /><br />iPod touch<br />Requires iOS 12.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>",
       googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.brotheraprint&hl=en_US",
@@ -26,7 +26,7 @@ export const appInfo = {
       title: "Prestidigitation",
       description: "Take your magic to the next level with an app that lets you create over 18,000 unique gimmick cards for stunning tricks. Designed for magicians, card enthusiasts, and illusionists, this app helps you craft mesmerizing cards with ease. It includes a deck of 54 standard cards, 12 special cards, and 13 unique mixing methods, allowing limitless creativity. Whether you're performing at an event, a tradeshow, or just for friends and family, these custom cards will leave your audience in awe. With a seamless interface, you can generate and store custom card images on your device or print them instantly. For professional-grade prints, use Brother label printers like QL820NWB or QL810W, which support red and black printing on 2.4 inch wide labels. Simply apply the printed label to any card and enhance your magic tricks effortlessly. Creating a custom gimmick card is easy—select a base card, choose a secondary image, apply one of 13 mixing methods, and watch a brand-new illusion come to life. If you ever need a duplicate, just select the same card for both images and pick any mix to recreate a lost or special trick card. Rooted in the art of prestidigitation, this app embodies the swift skill and dexterity required for legendary illusions.",
       appDemo: "https://assets.onecompiler.app/42xjnjtme/439pyvbdh/460x0w%20(5).webp",
-      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />57.1 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />NT$30.00</p>",
+      specs: "<p><strong>Specifications</strong><br /><br />Provider<br />Supplier Relations US, LLC.<br /><br />Size<br />57.1 MB<br /><br />Category<br />Entertainment<br /><br />Languages<br />English<br /><br />Age Rating<br />4+<br /><br />Copyright<br />© (C) 2024 Supplier Relations US<br /><br />Price<br />$0.99</p>",
       reviews: "",
       compatibility: "<p><strong>Compatibility</strong><br /><br />iPhone<br />Requires iOS 11.0 or later.<br /><br />iPad<br />Requires iPadOS 11.0 or later.<br /><br />iPod touch<br />Requires iOS 11.0 or later.<br /><br />Mac<br />Requires macOS 11.0 or later and a Mac with Apple M1 chip or later.<br /><br />Apple Vision<br />Requires visionOS 1.0 or later.</p>",
       googleLink: "https://play.google.com/store/apps/details?id=us.supplierrelations.prestidigitation&hl=en_US",
@@ -46,7 +46,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$30.00</p>`,
+$0.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -80,7 +80,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US, LLC.<br /><br />
 Price<br />
-NT$150.00</p>`,
+$4.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -114,7 +114,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$90.00</p>`,
+$2.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -183,7 +183,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$30.00</p>`,
+$0.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -217,7 +217,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US, LLC.<br /><br />
 Price<br />
-NT$150.00</p>`,
+$4.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -251,7 +251,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$150.00</p>`,
+$4.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -285,7 +285,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$30.00</p>`,
+$0.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -319,7 +319,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US, LLC.<br /><br />
 Price<br />
-NT$30.00<p>`,
+$0.99<p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -353,7 +353,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US<br /><br />
 Price<br />
-NT$30.00</p>`,
+$0.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />
@@ -387,7 +387,7 @@ Age Rating<br />
 Copyright<br />
 © (C) 2024 Supplier Relations US, LLC.<br /><br />
 Price<br />
-NT$150.00</p>`,
+$4.99</p>`,
       reviews: "",
       compatibility: `<p><strong>Compatibility</strong><br /><br />
 iPhone<br />

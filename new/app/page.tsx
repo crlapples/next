@@ -36,7 +36,7 @@ const Apps = () => {
         </div>
         <div className={styles.titleContainer}>
           <p className={styles.title1}>App</p>
-          <div className={styles.decorationBar} />
+          <img src="/water-6668699_1280.png" className={styles.titleImg} />
           <p className={styles.title2}>Collection</p>
         </div>
         <div className={styles.appGrid}>

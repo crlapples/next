@@ -25,6 +25,7 @@
 .logo {
   width: 100%;
   height: 100%;
+  overflow: visible;
 }
 
 .navBar {
@@ -92,6 +93,10 @@
   gap: 0.5%;
 }
 
+.introDesign {
+  overflow: hidden;
+}
+
 .bubble1 {
   width: 20%;
   height: 40%;
@@ -144,6 +149,7 @@
   background: radial-gradient(circle, beige, rgba(255, 200, 200, 0.7));
   animation: ripple 2s infinite;
   font-family: "Zen Dots", san-serif;
+  z-index: 1;
 }
 
 @keyframes ripple {
@@ -156,6 +162,13 @@
   100% {
     background-size: 100% 100%;
   }
+}
+
+.titleImg {
+  position: absolute;
+  width: 90%;
+  height: 200%;
+  top: -50%;
 }
 
 .decorationBar {
@@ -186,6 +199,7 @@
   animation: ripple 2s infinite;
   font-family: "Zen Dots", sans-serif;
   border-radius: 3vw;
+  z-index: 1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -213,6 +227,7 @@
   gap: 2%;
   row-gap: 5%;
   margin-top: 10%;
+  overflow: visible;
 }
 
 .appBlock {
