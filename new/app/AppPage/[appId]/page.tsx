@@ -38,7 +38,7 @@ const AppPageStatic = ({ params }: AppPageProps) => {
     <main className={styles.mainContainer}>
       <div className={styles.topContainer}>
         <div className={styles.logoContainer}>
-          <img className={styles.logo} src={"https://assets.onecompiler.app/42xjnjtme/439pfatvu/image_fx_%20(26)%20(1).jpg"} />
+          <img className={styles.logo} alt="Supplier Relations Logo" src={"https://assets.onecompiler.app/42xjnjtme/439pfatvu/image_fx_%20(26)%20(1).jpg"} />
         </div>
         <div className={styles.seperatorLineA} />
         <ul className={styles.navBar}>
@@ -59,7 +59,7 @@ const AppPageStatic = ({ params }: AppPageProps) => {
             <div className={styles.appHorizontalOri}>
               <div className={styles.appVerticalOriA}>
                 <div className={styles.appHorizontalOriB}>
-                  <img className={styles.appLogo} src={app.logo} />
+                  <img className={styles.appLogo} loading="lazy" alt="A logo of an app" src={app.logo} />
                   <p className={styles.titleD}><strong>{app.title}</strong></p>
                 </div>
                 <p className={styles.appPageDesc}>{app.description}</p>
@@ -67,10 +67,10 @@ const AppPageStatic = ({ params }: AppPageProps) => {
               <div className={styles.appVerticalOriB}>
                 <div className={styles.togetherA}>
                   <div className={styles.demoContainer}>
-                    <img className={styles.appDemoPhoneA} src={app.appDemo} />
+                    <img className={styles.appDemoPhoneA} loading="lazy" alt="A demo of an app" src={app.appDemo} />
                   </div>
                   <div className={styles.propContainer}>
-                    <img className={styles.phonePropA1} src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" />
+                    <img className={styles.phonePropA1} loading="lazy" alt="A phone to contain the app demo" src="https://assets.onecompiler.app/42xjnjtme/439sca9ca/imageedit_6_9622755702.png" />
                   </div>
                 </div>
               </div>
@@ -84,9 +84,9 @@ const AppPageStatic = ({ params }: AppPageProps) => {
                   {app.googleLink === "null" ? (
                     <div></div>
                   ) : (
-                    <a href={app.googleLink}><img className={styles.google} src="/google.png" /></a>
+                    <a href={app.googleLink}><img className={styles.google} loading="lazy" alt="A google play button image" src="/google.png" /></a>
                   )}
-                  <a href={app.appleLink}><img className={styles.apple} src="/appleWhite.svg" /></a>
+                  <a href={app.appleLink}><img className={styles.apple} loading="lazy" alt="An apple app store button image" src="/appleWhite.svg" /></a>
                 </div>
               </div>
             </div>
